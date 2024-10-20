@@ -64,7 +64,7 @@ Alternatively, follow the instructions for your operating system found here: [pn
 
 YNS is tightly integrated with [Stripe](https://stripe.com), so you need a Stripe account to use Your Next Store. Follow the instructions from Stripe to [create an account](https://dashboard.stripe.com/register).
 
-It's important to remember that Stripe works in two different modes: **Test Mode** and **Production Mode**. For local development and testing purposes, you should use the **Test Mode**. This way, Stripe will never charge real money, and you can use special test credentials such as credit card numbers and BLIK numbers to complete payments. For more detailed information, please refer to the Stripe documentation at [docs.stripe.com/testing](https://docs.stripe.com/testing).
+It's important to remember that Stripe works in two different modes: for me **Test Mode** and **Production Mode**. For local development and testing purposes, you should use the **Test Mode**. This way, Stripe will never charge real money, and you can use special test credentials such as credit card numbers and BLIK numbers to complete payments. For more detailed information, please refer to the Stripe documentation at [docs.stripe.com/testing](https://docs.stripe.com/testing).
 
 Once you're ready to sell your products to real customers, you must switch **Test Mode** to **Production Mode** in Stripe and generate new credentials.
 
